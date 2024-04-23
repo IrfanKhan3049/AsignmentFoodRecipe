@@ -1,0 +1,136 @@
+
+.SideBar{
+    width: 350px;
+    height: 100vh;
+    background: #dce0e0;
+    padding-left: 100px !important;
+    padding: 40px 0;
+    padding-right: 10px;
+    border-right: 1.5px solid #e7e7e7;
+}
+.Items{
+    width: 100%;
+    display: block;
+}
+.Items .linkee{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.048);
+    border-radius: 5px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00b6a7;
+    transition: all .3s ease;
+}
+.Items .linkee:hover{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+    color: #00b6a7;
+}
+
+form{
+    width: 100%;
+}
+form .cust_css{
+    gap: 5px;
+}
+form .cust_css label{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00b6a7;
+}
+form input{
+    width: 100% !important;
+    border: 1.2px solid #00b6a7;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.primary_title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #00b6a7;
+    padding-bottom: 10px;
+}
+.not-Found{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #00b6a7;
+}
+.content{
+    padding: 5px 10px;
+}
+.content h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #00b6a7;
+}
+.content .top_right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #00b6a7;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.food_thumb{
+    width: 100%;
+    height: 150px;
+    filter: blur(0.5px);
+    transition: all .3s ease;
+}
+.food_thumb:hover{
+    filter: blur(0px);
+}
+.buttons .cust_btn{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 5px;
+    transition: all .3s ease-in-out;
+}
+.buttons :first-child{
+    background: #073d39 !important;
+    color: #00b6a7;
+}
+.buttons :last-child{
+    background: #ff00001e !important;
+    color: red;
+}
+.buttons :first-child:hover{
+    background: #00b6a7 !important;
+    color: #fff;
+}
+.buttons :last-child:hover{
+    background: red !important;
+    color: white;
+}
+.sub_btn{
+    background: #00b6a7;
+    color: #fff;
+}
+.sub_btn:hover{
+    background: #5fe4d9;
+    color: #fff;
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
